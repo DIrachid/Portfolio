@@ -30,4 +30,7 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
-
+window.onload = function()
+{
+  document.getElementById("spanYear").innerHTML = new Date().getFullYear();
+}
